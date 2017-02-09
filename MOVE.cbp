@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MOVE" />
+		<Option execution_dir="E:/BACKUPS-MeusTrabalhos/3D-WORKS-Ogre3D/Ogre3D_Music_Effects/bin/" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/MOVE-RELEASE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="objects/release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Debug">
+				<Option output="bin/MOVE-DEBUG" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="objects/debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-D_DEBUG" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="libraries/OgreSDK-1.8.1-Windows/lib" />
+			<Add directory="libraries/OgreSDK-1.8.1-Windows/lib/opt" />
+			<Add directory="libraries/OgreSDK-1.8.1-Windows/include" />
+			<Add directory="libraries/OgreSDK-1.8.1-Windows/include/OGRE" />
+			<Add directory="libraries/OgreSDK-1.8.1-Windows/include/OIS" />
+			<Add directory="libraries/Boost-Windows" />
+			<Add directory="libraries/Boost-Windows/boost" />
+			<Add directory="libraries/Boost-Windows/lib" />
+			<Add directory="libraries/PugiXML-1.7-Windows" />
+			<Add directory="libraries/DotSceneLoader" />
+			<Add directory="libraries/TinyXML-2.6.2" />
+			<Add directory="libraries/RtAudio-4.1.2-Windows" />
+			<Add directory="libraries/RtAudio-4.1.2-Windows/libs" />
+			<Add directory="libraries/RtAudio-4.1.2-Windows/include" />
+			<Add directory="libraries/RtAudio-4.1.2-Windows/tests" />
+		</Compiler>
+		<Linker>
+			<Add option="-static" />
+			<Add option="-pthread" />
+			<Add option="-Wl,--enable-auto-image-base" />
+			<Add option="-Wl,--add-stdcall-alias" />
+			<Add option="-Wl,--enable-auto-import" />
+			<Add option="-lrtaudio_static" />
+			<Add option="-luuid" />
+			<Add option="-lwinmm" />
+			<Add option="-ldsound" />
+			<Add option="-lksuser" />
+			<Add option="-lstdc++" />
+			<Add option="-lgcc" />
+			<Add option="-lole32" />
+			<Add option="-lglut32" />
+			<Add option="-lopengl32" />
+			<Add option="-lboost_system-mgw47-mt-1_51" />
+			<Add option="-lOgreMain.dll" />
+			<Add option="-lOIS.dll" />
+			<Add option="-lPlugin_ParticleFX.dll" />
+			<Add option="-lRenderSystem_GL.dll" />
+			<Add directory="libraries/OgreSDK-1.8.1-Windows/lib" />
+			<Add directory="libraries/OgreSDK-1.8.1-Windows/lib/opt" />
+			<Add directory="libraries/OgreSDK-1.8.1-Windows/include" />
+			<Add directory="libraries/OgreSDK-1.8.1-Windows/include/OGRE" />
+			<Add directory="libraries/OgreSDK-1.8.1-Windows/include/OIS" />
+			<Add directory="libraries/Boost-Windows" />
+			<Add directory="libraries/Boost-Windows/boost" />
+			<Add directory="libraries/Boost-Windows/lib" />
+			<Add directory="libraries/PugiXML-1.7-Windows" />
+			<Add directory="libraries/DotSceneLoader" />
+			<Add directory="libraries/TinyXML-2.6.2" />
+			<Add directory="libraries/RtAudio-4.1.2-Windows" />
+			<Add directory="libraries/RtAudio-4.1.2-Windows/libs" />
+			<Add directory="libraries/RtAudio-4.1.2-Windows/include" />
+			<Add directory="libraries/RtAudio-4.1.2-Windows/tests" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

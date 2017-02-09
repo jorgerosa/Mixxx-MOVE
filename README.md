@@ -89,9 +89,10 @@ I recommend first to start to play with all the included files located in the ".
 
 --------------------------------------------------------------------------------------------------
 
-Developer: Jorge Rosa - With love to ASCR
-Author Email: jorge.bigarte@gmail.com
-Author Portfolio: https://sites.google.com/site/jorgerosaportfolio
+- This project has an CLONE at SOURCEFORGE.NET: https://sourceforge.net/projects/mve-mixxx-visual-effects/
+- Developed by: Jorge Rosa (Portugal - With love to ASCR)
+- Developer Email: jorge.bigarte@gmail.com
+- Developer Portfolio: http://sites.google.com/site/jorgerosaportfolio (Many more stuff there)
 
 --------------------------------------------------------------------------------------------------
 

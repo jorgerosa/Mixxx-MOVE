@@ -4,12 +4,12 @@
 
 MOVE Development:
 
-v.0.0.7 - Includes now all the needed libraries and accepts foreign (latin/portuguese) characters
-v.0.0.6 - Lots of optimizations (including code and graphics)
-v.0.0.5 - All 3D scene is animated (zoomed) acording audio input levels
-v.0.0.4 - Much better loop trought all your audio devices, and with on screen infos. (Keys "O" and "P")
-v.0.0.3 - Yep!... it CAN listen your microphone (audio input) now!
-v.0.0.2 - Added support for texts and external fonts. Just type your text in the ".\bin\Data\settings.xml" file!
+- v.0.0.7 - Includes now all the needed libraries and accepts foreign (latin/portuguese) characters
+- v.0.0.6 - Lots of optimizations (including code and graphics)
+- v.0.0.5 - All 3D scene is animated (zoomed) acording audio input levels
+- v.0.0.4 - Much better loop trought all your audio devices, and with on screen infos. (Keys "O" and "P")
+- v.0.0.3 - Yep!... it CAN listen your microphone (audio input) now!
+- v.0.0.2 - Added support for texts and external fonts. Just type your text in the ".\bin\Data\settings.xml" file!
 
 --------------------------------------------------------------------------------------------------
 
@@ -37,20 +37,20 @@ Should work great with a computer with 2 monitors connected.
 
 > Main KEYS are:
 
-ESC        <-- Exits.
-F1         <-- Particles.
-F          <-- Change between Fullscreen and Windowed modes.
-O          <-- Connects to the previous Audio Device (Press if MOVE cant "listen" any input audio).
-P          <-- Connects to the next Audio Device (Press if MOVE cant "listen" any input audio).
+- ESC        <-- Exits.
+- F1         <-- Particles.
+- F          <-- Change between Fullscreen and Windowed modes.
+- O          <-- Connects to the previous Audio Device (Press if MOVE cant "listen" any input audio).
+- P          <-- Connects to the next Audio Device (Press if MOVE cant "listen" any input audio).
 
 > Beat KEYS are: (All are in the numeric keypad, except the SPACE key)
 
-SPACE      <-- Beat now!
-ENTER      <-- Time between 1st and 2nd ENTER key press sets the beat interval.
+- SPACE      <-- Beat now!
+- ENTER      <-- Time between 1st and 2nd ENTER key press sets the beat interval.
                (Visuals should now loop with that set interval)
-0 to 9     <-- Pre defined beats intervals. (0 == Disabled, 9 == Faster beats)
--          <-- Sets intervals between beats.
-+          <-- Sets intervals between beats.
+- 0 to 9     <-- Pre defined beats intervals. (0 == Disabled, 9 == Faster beats)
+- -          <-- Sets intervals between beats.
+- +          <-- Sets intervals between beats.
 
 --------------------------------------------------------------------------------------------------
 

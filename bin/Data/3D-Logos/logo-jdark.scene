@@ -1,0 +1,18 @@
+<scene upAxis="y" unitsPerMeter="1" unitType="meters" formatVersion="1.0" minOgreVersion="Latest version" author="EasyOgreExporter">
+    <environment>
+        <colourAmbient r="0" g="0" b="0" />
+        <colourBackground r="0" g="0" b="0" />
+    </environment>
+    <nodes>
+        <node name="Logo_JDark" id="0" isTarget="false">
+            <position x="0.00358982" y="1.00895" z="-25.7128" />
+            <rotation qx="-0" qy="-0" qz="-0" qw="-1" />
+            <scale x="0.537278" y="0.537278" z="0.537278" />
+            <entity name="Logo_JDark" id="1" meshFile="Logo_JDark.mesh" castShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="Redz" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

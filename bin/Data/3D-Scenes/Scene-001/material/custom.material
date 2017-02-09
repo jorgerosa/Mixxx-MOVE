@@ -1,0 +1,245 @@
+
+material "Mat_Peak"
+{
+	technique
+	{
+		pass
+		{
+			lighting off				
+			depth_write off // For transparencies
+			scene_blend alpha_blend // For transparencies
+			cull_hardware none // none == should make it appear double sided. 
+			cull_software none // none == should make it appear double sided. 
+				
+			texture_unit
+			{
+			texture peaks.png
+			}	
+		}
+	}
+}
+
+
+material "Mat_Earth"
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0.275725 0.429294 0.684079 0.89 38.25
+			emissive 0 0 0 1
+			
+			lighting on
+			// Cull: cull_hardware <clockwise|anticlockwise|none> || cull_software <back|front|none>
+			cull_hardware none // none = makes it double sided. 
+			cull_software none // none = makes it double sided.			 
+			// scene_blend alpha_blend || add || modulate || alpha_blend
+            // depth_write off
+
+			texture_unit
+			{
+				texture earth.jpg
+				colour_op replace // <replace|add|modulate|alpha_blend>
+			}
+			
+			texture_unit
+			{
+				texture clouds.png
+				colour_op alpha_blend // <replace|add|modulate|alpha_blend>
+				scroll_anim 0.05 0.0  // <xspeed> <yspeed>
+			}
+		}
+	}
+}
+
+
+
+material "Mat_Moon"
+{
+	technique
+	{
+		pass
+		{
+		ambient 1 1 1 1
+		diffuse 1 1 1 1
+		specular 0.429882 0.429882 0.429882 0.63 56.1
+		emissive 0 0 0 1
+
+		texture_unit
+		{
+		texture moon.jpg
+		tex_coord_set 0
+		colour_op modulate
+		}
+		}
+	}
+}
+
+
+
+material "Mat_Fountain"
+{
+	technique
+	{
+		pass
+		{
+		lighting off				
+		depth_write off // For transparencies
+		scene_blend alpha_blend // For transparencies
+		// cull_hardware none // none == should make it appear double sided. 
+		// cull_software none // none == should make it appear double sided. 
+			
+		texture_unit
+		{
+		texture stars.png
+		rotate_anim 0.5
+		}					
+
+		}
+	}
+}
+
+material "Mat_Sun"
+{
+	technique
+	{
+		pass
+		{
+		lighting off				
+		depth_write off // For transparencies
+		scene_blend alpha_blend // For transparencies
+		cull_hardware none // none == should make it appear double sided. 
+		cull_software none // none == should make it appear double sided. 
+			
+		texture_unit
+		{
+		texture sun.png
+		scale 1.2 1.2 // scale 0.1 0.1 == this means that the texture will be tiled 10 times (1/10 = 0.1)
+		rotate_anim 0.05
+		}					
+
+		}
+	}
+}
+
+material "Mat_Atmosphere"
+{
+	technique
+	{
+		pass
+		{
+		lighting off				
+		depth_write off // For transparencies
+		scene_blend alpha_blend // For transparencies
+		cull_hardware none // none == should make it appear double sided. 
+		cull_software none // none == should make it appear double sided. 
+			
+		texture_unit
+		{
+		texture atmosphere.png
+		scale 1.2 1.2 // scale 0.1 0.1 == this means that the texture will be tiled 10 times (1/10 = 0.1)
+		rotate_anim 0.05
+		}					
+
+		}
+	}
+}
+
+material "Mat_Space_3"
+{
+	technique
+	{
+		pass
+		{
+		lighting off				
+		depth_write off // For transparencies
+		scene_blend alpha_blend // For transparencies
+		cull_hardware none // none == should make it appear double sided. 
+		cull_software none // none == should make it appear double sided. 
+			
+		texture_unit
+		{
+		texture space.png
+		scale 1.0 1.0 // scale 0.1 0.1 == this means that the texture will be tiled 10 times (1/10 = 0.1)
+		rotate_anim 0.006
+		}					
+
+		}
+	}
+}
+
+material "Mat_Space_4"
+{
+	technique
+	{
+		pass
+		{
+		lighting off				
+		depth_write off // For transparencies
+		scene_blend alpha_blend // For transparencies
+		cull_hardware none // none == should make it appear double sided. 
+		cull_software none // none == should make it appear double sided. 
+			
+		texture_unit
+		{
+		texture space.jpg
+		scale 1.0 1.0 // scale 0.1 0.1 == this means that the texture will be tiled 10 times (1/10 = 0.1)
+		rotate_anim 0.003
+		}					
+
+		}
+	}
+}
+
+material "Mat_SoundWave"
+{
+	technique
+	{
+		pass
+		{
+		lighting off				
+		depth_write off // For transparencies
+		scene_blend alpha_blend // For transparencies
+		cull_hardware none // none == should make it appear double sided. 
+		cull_software none // none == should make it appear double sided. 
+			
+		texture_unit
+		{
+		texture wave.png
+		}					
+
+		}
+	}
+}
+
+
+material "Mat_Fire"
+{
+	technique
+	{
+		pass
+		{
+			
+			lighting on
+            scene_blend alpha_blend
+            depth_write off 
+	
+			texture_unit
+			{
+				texture earth.jpg
+				tex_coord_set 0
+			}
+			
+			texture_unit
+			{
+				texture clouds.png
+				colour_op alpha_blend				
+				tex_coord_set 0
+				scroll_anim 0.0 0.5 // <xspeed> <yspeed>
+			}			
+
+		}
+	}
+}

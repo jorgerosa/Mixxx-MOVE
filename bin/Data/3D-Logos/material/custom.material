@@ -1,0 +1,63 @@
+
+material "Mat_Mixxx"
+{
+	technique
+	{
+		pass
+		{
+		
+			lighting off
+			// Cull: cull_hardware <clockwise|anticlockwise|none> || cull_software <back|front|none>
+			cull_hardware none // none = makes it double sided. 
+			cull_software none // none = makes it double sided.			 
+			// scene_blend alpha_blend || add || modulate || alpha_blend
+            // depth_write off
+	
+			texture_unit
+			{
+				texture metal1.jpg
+				colour_op replace // <replace|add|modulate|alpha_blend>
+			}
+			
+			texture_unit
+			{
+				texture metal2.png
+				colour_op alpha_blend
+				scroll_anim 0.20 0.0 // <xspeed> <yspeed>
+			}			
+
+		}
+	}
+}
+
+
+material "Mat_JDark"
+{
+	technique
+	{
+		pass
+		{
+		
+			lighting off
+			// Cull: cull_hardware <clockwise|anticlockwise|none> || cull_software <back|front|none>
+			cull_hardware none // none = makes it double sided. 
+			cull_software none // none = makes it double sided.			 
+			// scene_blend alpha_blend || add || modulate || alpha_blend
+            // depth_write off
+	
+			texture_unit
+			{
+				texture metal1.jpg
+				colour_op replace // <replace|add|modulate|alpha_blend>
+			}
+			
+			texture_unit
+			{
+				texture metal2.png
+				colour_op alpha_blend				
+				scroll_anim 0.20 0.0 // <xspeed> <yspeed>
+			}			
+
+		}
+	}
+}

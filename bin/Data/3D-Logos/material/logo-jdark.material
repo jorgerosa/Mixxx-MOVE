@@ -1,0 +1,20 @@
+material "Redz"
+{
+	technique Redz_technique
+	{
+		pass Redz_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 0.537255 0.0823529 1 102
+			emissive 0 0 0 1
+
+			texture_unit Redz_Diffuse#0
+			{
+				texture logos.jpg
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+
+// Particles:
+
+particle_system "Particle_Fountain"
+{
+    material "Mat_Fountain"
+    particle_width 2.5
+    particle_height 2.5
+    cull_each false
+    quota 10000
+    // billboard_type oriented_self
+	billboard_type point
+
+    // Area emitter:
+    emitter Point
+    {
+	angle 20
+	emission_rate 60
+	time_to_live 6
+	direction 0 1 0
+	velocity_min 30 
+	velocity_max 60
+	colour_range_start 1.0 1.0 1.0
+	colour_range_end 0.4 0.4 0.4
+    }
+
+    // Gravity:
+    affector LinearForce
+    {
+	force_vector 0 -15 0
+	force_application add
+    }
+
+    // Fader:
+    affector ColourFader
+    {
+	// Fade to this colour...
+	red -0.10
+	green -0.10
+	blue -0.10
+    }
+}
+
+

@@ -1,0 +1,20 @@
+material "Metalicz"
+{
+	technique Metalicz_technique
+	{
+		pass Metalicz_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1.12471 0.828235 1.2 1.2 63.75
+			emissive 0 0 0 1
+
+			texture_unit Metalicz_Diffuse#0
+			{
+				texture logos.jpg
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+}

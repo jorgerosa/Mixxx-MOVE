@@ -1,0 +1,13 @@
+
+CabinMedium
+{
+	
+	// Commons:
+	type 		truetype
+	source 		CabinMedium.ttf
+	size 		28
+	resolution 	96
+	
+	// Needed for foreign (portuguese) characters:
+	code_points 33-166 1-512	
+}

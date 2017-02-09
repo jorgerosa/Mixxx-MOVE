@@ -1,0 +1,78 @@
+<scene upAxis="y" unitsPerMeter="1" unitType="meters" formatVersion="1.0" minOgreVersion="Latest version" author="EasyOgreExporter">
+    <environment>
+        <colourAmbient r="0" g="0" b="0" />
+        <colourBackground r="0" g="0" b="0" />
+    </environment>
+    <nodes>
+        <node name="Earth" id="0" isTarget="false">
+            <position x="0.0182695" y="2.34459" z="71.4981" />
+            <rotation qx="7.54979e-008" qy="-1" qz="4.37114e-008" qw="1.19209e-007" />
+            <scale x="1.88042" y="1.88042" z="1.88042" />
+            <entity name="Earth" id="1" meshFile="Earth.mesh" castShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="Earthz" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Moon" id="2" isTarget="false">
+            <position x="0.00482941" y="0.160198" z="151.215" />
+            <rotation qx="5.33851e-008" qy="0.707107" qz="-0.707107" qw="5.33851e-008" />
+            <scale x="1.28058" y="1.28058" z="1.28058" />
+            <entity name="Moon" id="3" meshFile="Moon.mesh" castShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="Moonzz" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Plane01" id="4" isTarget="false">
+            <position x="-0.0423783" y="0.00939435" z="5.16756" />
+            <rotation qx="5.33851e-008" qy="0.707107" qz="-0.707107" qw="5.33851e-008" />
+            <scale x="1" y="1" z="1" />
+            <entity name="Plane01" id="5" meshFile="Plane01.mesh" castShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="Foscoz" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Plane03" id="6" isTarget="false">
+            <position x="-0.0423783" y="0.00939435" z="245.165" />
+            <rotation qx="5.33851e-008" qy="0.707107" qz="-0.707107" qw="5.33851e-008" />
+            <scale x="4.33787" y="4.33787" z="4.33787" />
+            <entity name="Plane03" id="7" meshFile="Plane03.mesh" castShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="Foscoz" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Plane02" id="8" isTarget="false">
+            <position x="-0.0423783" y="0.00939435" z="10.0175" />
+            <rotation qx="5.33851e-008" qy="0.707107" qz="-0.707107" qw="5.33851e-008" />
+            <scale x="1" y="1" z="1" />
+            <entity name="Plane02" id="9" meshFile="Plane02.mesh" castShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="Foscoz" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Plane04" id="10" isTarget="false">
+            <position x="-0.0423783" y="0.00939435" z="275.4" />
+            <rotation qx="5.33851e-008" qy="0.707107" qz="-0.707107" qw="5.33851e-008" />
+            <scale x="4.33787" y="4.33787" z="4.33787" />
+            <entity name="Plane04" id="11" meshFile="Plane04.mesh" castShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="Foscoz" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Plane05" id="12" isTarget="false">
+            <position x="-0.0423783" y="0.00939435" z="305.084" />
+            <rotation qx="5.33851e-008" qy="0.707107" qz="-0.707107" qw="5.33851e-008" />
+            <scale x="4.33787" y="4.33787" z="4.33787" />
+            <entity name="Plane05" id="13" meshFile="Plane05.mesh" castShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="Foscoz" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--//
+	Possible Values:
+	1) logoSceneFile:    "logo-mixxx.scene" - OR - "logo-jdark.scene" (Or your logo that you have created)
+	2) logoSceneVisible: "true" - OR - "false"
+	3) mainSceneFile:    "scene-001.scene"
+	4) mainSceneVisible: "true" - OR - "false"
+	5) textsLine1:       "Write your text here"
+	6) textsLine2:       "Write your text here"
+	7) textsLine3:       "Write your text here"
+	8) textsLine4:       "Write your text here"
+	9) mainFont: 		 "CabinMedium"
+   10) mainFontSize:     "10" - TO - "1000"
+//-->
+
+<root>
+<settings 
+
+	logoSceneFile    = "logo-mixxx.scene"
+	logoSceneVisible = "true" 
+	mainSceneFile    = "scene-001.scene"
+	mainSceneVisible = "true" 
+	textsLine1       = ""
+	textsLine2       = "Mixxx has everything you need to start making DJ mixes"
+	textsLine3       = "www.mixxx.org"
+	textsLine4       = ""
+	mainFont         = "CabinMedium"
+	mainFontSize     = "20"
+	
+/>
+</root>

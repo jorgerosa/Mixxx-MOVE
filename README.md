@@ -13,12 +13,6 @@ MOVE Development:
 
 --------------------------------------------------------------------------------------------------
 
-Developer: Jorge Rosa (jorge.bigarte@gmail.com) - With love to: ASCR
-Website: https://sites.google.com/site/jorgerosaportfolio
-Mixxx DarkMetal Skin: http://www.mixxx.org/forums/viewtopic.php?f=8&t=6052
-
---------------------------------------------------------------------------------------------------
-
 > MOVE - Mixxx Ogre3D Visual Effects:
 
 To RUN it, just go to the "bin" folder, and double click on the executable "MOVE_RELEASE.exe"
@@ -94,3 +88,10 @@ I recommend first to start to play with all the included files located in the ".
 3) Works only on MS Windows (needs to be compiled for other platforms too)
 
 --------------------------------------------------------------------------------------------------
+
+Developer: Jorge Rosa - With love to ASCR
+Author Email: jorge.bigarte@gmail.com
+Author Portfolio: https://sites.google.com/site/jorgerosaportfolio
+
+--------------------------------------------------------------------------------------------------
+

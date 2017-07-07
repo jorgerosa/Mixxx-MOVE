@@ -42,9 +42,9 @@ Should work great with a computer with 2 monitors connected.
 - SPACE      <-- Beat now!
 - ENTER      <-- Time between 1st and 2nd ENTER key press sets the beat interval.
                (Visuals should now loop with that set interval)
-- 0 to 9     <-- Pre defined beats intervals. (0 = Disabled, 9 = Faster beats)
-- -          <-- Sets intervals between beats.
-- +          <-- Sets intervals between beats.
+- 0 to 9     <-- Pre defined beats intervals. (0 == Disabled, 9 == Faster beats)
+- "minus"    <-- Sets intervals between beats.
+- "plus"     <-- Sets intervals between beats.
 
 --------------------------------------------------------------------------------------------------
 
